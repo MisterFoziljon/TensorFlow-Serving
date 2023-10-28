@@ -1,9 +1,9 @@
 ## Run object detection model using tensorflow serving
 
-## YOLOv8 modelini tensorflow saved modelga o'tkazib, uni tensorflow serving yordamida ishlatish va streamlit yordamida deploy qilish.
+### YOLOv8 modelini tensorflow saved modelga o'tkazib, uni tensorflow serving yordamida ishlatish va streamlit yordamida deploy qilish.
 
 
-### **Requirements:**
+#### **Requirements:**
 ```python
  pip install tensorflow[and-cuda]
  pip install streamlit
@@ -12,13 +12,13 @@
  pip install grpc
 ```
 
-### **Qo'llanma:**
+#### **Qo'llanma:**
 
 * [keras.io](https://keras.io/examples/keras_recipes/tf_serving/)
 * [github](https://github.com/keras-team/keras-io/blob/master/examples/keras_recipes/tf_serving.py)
 * [google colab](https://colab.research.google.com/github/keras-team/keras-io/blob/master/examples/keras_recipes/ipynb/tf_serving.ipynb)
 
-### **Information:**
+#### **Information:**
 
 * ``` REST api ``` - Eng kam qo'llaniladigan API modeli REST bo'lib, REST so'zi kengroq qo'llanilsa ham, API larning kichik bir qismi shu tarzda ishlab chiqilgan. Ushbu API uslubining o'ziga xos xususiyati shundaki, mijozlar boshqa ma'lumotlardan URL manzillarini yaratmaydilar - ular server tomonidan uzatilgan URL manzillaridan foydalanadilar. Brauzer shunday ishlaydi — u foydalanadigan URL-manzillarni qismlardan tuzmaydi va u foydalanadigan URL manzillarining veb-saytga xos formatlarini tushunmaydi; u serverdan olingan joriy sahifada topilgan yoki oldingi sahifalardan qadab qo'yilgan yoki foydalanuvchi tomonidan kiritilgan URL manzillarini shunchaki ko'r-ko'rona kuzatib boradi. Brauzer amalga oshiradigan URL-manzilning yagona tahlili HTTP so'rovini yuborish uchun zarur bo'lgan ma'lumotlarni ajratib olishdir va brauzer bajaradigan yagona URL-manzillar nisbiy va asosiy URL-lardan mutlaq URL yaratishdir. Agar sizning API REST API bo'lsa, mijozlaringiz hech qachon URL manzillaringiz formatini tushunishlari shart emas va bu formatlar mijozlarga berilgan API spetsifikatsiyasining bir qismi emas. REST API juda oddiy bo'lishi mumkin. REST API-lari bilan foydalanish uchun ko'plab qo'shimcha texnologiyalar ixtiro qilingan, masalan, JSON API, ODATA, HAL, Siren yoki JSON Hyper-Schema va boshqalar - lekin RESTni yaxshi bajarish uchun ulardan hech biri kerak emas.
 
