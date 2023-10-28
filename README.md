@@ -95,4 +95,4 @@ tensorflow_model_server --port=8500 --rest_api_port=8501 --model_name=model --mo
 streamlit run deploy.py
 ```
 
-Modelni yuklab olish uchun ![link](https://drive.google.com/drive/folders/1lHszpAS8PqkCZjJ2wV212AUoq_LkWxR0?usp=drive_link)
+Modelni yuklab olish uchun [link](https://drive.google.com/drive/folders/1lHszpAS8PqkCZjJ2wV212AUoq_LkWxR0?usp=sharing)
